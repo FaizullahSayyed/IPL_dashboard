@@ -1,0 +1,50 @@
+.list-item {
+  list-style: none;
+  border: 2px solid #ffffff;
+  border-radius: 15px;
+  width: 170px;
+  height: 100px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-item {
+  text-decoration: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.team-card-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-card-image {
+  width: 50px;
+  margin: 10px;
+}
+
+.team-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-card-inf {
+  display: flex;
+  align-items: center;
+}
+
+.team-card-name {
+  text-align: center;
+}
+
+@media screen and (orientation: landscape) {
+  .list-item {
+    width: 20vw;
+    margin: 20px;
+  }
+}
